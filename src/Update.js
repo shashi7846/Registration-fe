@@ -23,6 +23,7 @@ function Update(props) {
        
       }, []);
       
+      
 
       let userdata = {FullName,email,mobilenumber,jobtype,dateofbirth,location}
 
@@ -201,7 +202,7 @@ function Update(props) {
             </div>
           </div>
           <div className="row mt-2">
-                    <input type="submit" className="btn btn-primary col-2 offset-9" value="update" />
+                    <input type="submit" className="btn btn-primary col-2 offset-9" value="update"   />
                 </div>
           
         </form>

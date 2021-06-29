@@ -3,21 +3,21 @@ import axios from "axios";
 
 export function GetRegister()
 {
-    return axios.get(`http://localhost:9000/user`)
+    return axios.get(`https://registration-be.herokuapp.com/user`)
 
 }
 
 export  function PostRegister(data){
-    return axios.post(`http://localhost:9000/user`,data);
+    return axios.post(`https://registration-be.herokuapp.com/user`,data);
 }
 export function Deleteuserbyid(id){
-    return axios.delete(`http://localhost:9000/user/${id}`);
+    return axios.delete(`https://registration-be.herokuapp.com/user/${id}`);
 }
 export function Getuserbyid(id){
-    return axios.get(`http://localhost:9000/user/${id}`);
+    return axios.get(`https://registration-be.herokuapp.com/user/${id}`);
 }
 
 //updating the user
 export function Updateuserbyid(id,data){
-    return axios.put(`http://localhost:9000/user/${id}`,data)
+    return axios.put(`https://registration-be.herokuapp.com/user/${id}`,data)
 }
