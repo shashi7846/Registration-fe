@@ -1,0 +1,24 @@
+img{
+    height: 100px;
+    width: 500px;
+}
+.container{
+    
+    border: 1px solid black;
+    background-color:lightskyblue
+}
+/* label{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+ */
+ .button{
+padding-left: 800px;
+}
+.table-responsive{
+    padding-top: 50px;
+    align-items: center;
+    border: 2px solid black;
+    padding-left: 250px;
+    background-color:lightskyblue;
+}
